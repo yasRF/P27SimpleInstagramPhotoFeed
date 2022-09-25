@@ -1,0 +1,41 @@
+*{
+    flex-direction: column;
+    margin: auto;
+
+}
+.h1{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+body {
+    background-color: silver;
+    display:flex;
+    margin: 20px;;
+    padding: 20px;;
+}
+.container{
+   
+   
+    flex-direction: column;
+    justify-content: center;
+
+}
+.post{
+    background-color: aliceblue;
+    width: 600px;
+}
+
+.post_header{
+    margin-top: 20px;
+   
+    text-align: left;
+    color:black
+}
+.number{
+    color:grey
+}
+.span{
+  flex-direction: right;
+}
